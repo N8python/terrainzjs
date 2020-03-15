@@ -426,3 +426,38 @@ const terrain = async(width, height, {
     }
     return noiseMap;
 }
+terrain.islands = {
+    "blue": 0,
+    "lightblue": 0.35,
+    "rgb(255, 198, 153)": 0.4,
+    "green": 0.5,
+    "grey": 0.7,
+    "white": 0.9
+}
+terrain.plains = {
+    "rgb(0, 175, 0)": 0,
+    "green": 0.4,
+    "darkgreen": 0.7,
+}
+terrain.mountains = {
+    "green": 0,
+    "darkgreen": 0.3,
+    "grey": 0.5,
+    "white": 0.8
+}
+terrain.forest = {
+    "green": 0,
+    "darkgreen": 0.3,
+    "rgb(0, 60, 0)": 0.5
+}
+terrain.tundra = {
+    "blue": 0,
+    "lightblue": 0.1,
+    "grey": 0.4,
+    "white": 0.6,
+}
+terrain.desert = {
+    "rgb(255, 198, 153)": 0,
+    "rgb(220, 160, 120)": 0.4,
+    "rgb(204, 128, 96)": 0.8
+}
