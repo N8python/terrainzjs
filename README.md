@@ -1,7 +1,7 @@
 ## Terrainz.js
 Terrainz.js is a flexible mini-library built on top of [noisejs](https://github.com/josephg/noisejs). It uses perlin noise to
 create somewhat convincing 2d maps. First, include the library in your webpage:
-```js
+```html
 <script src="https://cdn.jsdelivr.net/gh/N8Python/terrainzjs/terrainz.js"></script>
 ```
 Then, you can generate a map (with any width and height) based off perlin noise by calling the `terrain` function (make sure you `await` it inside an async function.
